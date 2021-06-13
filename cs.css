@@ -1,0 +1,88 @@
+/* cs */
+
+#st{animation-delay:2s;}
+
+header{position: fixed; top: 0px; width:100%; transition: 0.5s;opacity: 0.1;}
+header:hover{opacity: 1;}
+
+.img, .txt{display: inline-block;}
+
+.a,.b{display: inline-block; border: 5px blue solid; overflow: auto;}
+
+.a{margin:5px;}
+.b{ width: 15em; height:20em; margin-left: 5px; margin-right: 5px; border: 2px rgb(142, 142, 153) solid;}
+
+.txt{margin: 3px;}
+
+.txt,.txt p{margin-bottom: 0px;}
+
+
+/* .cen{box-align: center;} */
+
+
+/* #MiViVa, #product_service{margin-left: auto; margin-right: auto; align-content:center;  } */
+
+/* animation-duration:2s; animation-delay:3s; */
+#mi{animation-duration:2s; animation-delay:2s;}
+#vi{animation-duration:2s; animation-delay:3s;}
+#va{animation-duration:2s; animation-delay:4s;}
+
+
+
+
+.a{width:19em; height:3em; transition: 1s;}
+
+.a h2{font-size:1.5em;}
+
+/* .a h2,.a:hover{font-size:1.5em; } */
+
+
+#con-his{background-color: silver;  animation-duration:2s; animation-delay:5s;}
+#his{margin:2em; margin-bottom: 2em;}
+
+#pa{animation-duration:2s; animation-delay:6s;}
+#pb{animation-duration:2s; animation-delay:7s;}
+#pc{animation-duration:2s; animation-delay:8s;}
+#pd{animation-duration:2s; animation-delay:9s;}
+#pe{animation-duration:2s; animation-delay:10s;}
+
+
+
+
+
+footer{background-color: #222222; animation-delay:10s;}
+
+@media screen and (max-width:375px){
+
+/* .b{display: block;} */
+
+.a{width:17em; height:3em;}
+
+.a h2{font-size:1.3em;}
+
+/* body{background-color: blue;} */
+
+.a h2,.a:hover{font-size:1.2em; }
+
+}
+
+@media screen and (max-width:768px){
+
+.a{width:19em; height:4em;}
+
+.a h2{font-size:1.3em;}
+.a h2,.a:hover{font-size:1.2em; }
+
+}
+
+@media screen and (min-width:770px){
+
+.a{width:19em; height:4em;}
+
+.a h2{font-size:1.4em;}
+
+}
+
+
+/* #ofl{position: fixed;} */
+
