@@ -12,6 +12,12 @@ setInterval(() => {
 }, 5000);
 
 
+setTimeout(() => {
+    var hdr = document.getElementById('hdr').style.opacity = '0.1';    
+}, 5000);
+
+
+
 
 setTimeout(() => {
   location.reload();
