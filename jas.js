@@ -12,10 +12,13 @@ setInterval(() => {
 }, 5000);
 
 
-setTimeout(() => {
-    var hdr = document.getElementById('hdr').style.opacity = '0.1';    
-}, 5000);
 
+
+// setTimeout(hdr_ns, 5000);
+
+// hdr.addEventListener("click", function(event){
+// hdr_ns();
+// });
 
 
 

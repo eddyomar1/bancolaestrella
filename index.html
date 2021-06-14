@@ -39,7 +39,7 @@
 </head>
 <body align="center">
 
-  <header id="hdr">
+  <header id="hdr" onmouseover="hdr_s();" onmouseout="hdr_ns();">
     <!-- animate__rotateIn -->
     <!-- animate__flip -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -288,6 +288,19 @@
 </div>
 
 <script>
+
+var hdr = document.getElementById('hdr');
+
+function hdr_s() {
+    hdr.style.opacity = '1';    
+    
+}
+
+function hdr_ns() {
+    hdr.style.opacity = '0.1';    
+    
+}
+
 </script>
 
 </body>
