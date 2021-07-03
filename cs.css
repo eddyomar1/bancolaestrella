@@ -5,6 +5,10 @@
 header{position: fixed; top: 0px; width:100%; transition: 0.5s; z-index:100;}
 /* header:hover #hdr{opacity: 1;} */
 
+#crs{height: 30%;}
+
+
+
 .img, .txt{display: inline-block;}
 
 .a,.b{display: inline-block; border: 5px blue solid; overflow: auto;}
@@ -83,6 +87,18 @@ footer{background-color: #222222; animation-delay:10s;}
 
 }
 
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+  
+    filter: invert(100%);
+  }
+
+.w-30{
+width:30%;
+
+}
+
+  
 
 /* #ofl{position: fixed;} */
 
